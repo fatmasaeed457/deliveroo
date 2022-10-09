@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Regression Test" verbose="5" preserve-order="true">
+    <parameter name="browserType" value="Chrome"/>
+    <parameter name="url" value="https://deliveroo.co.uk/"/>
+
+    <test name="Search Test">
+        <classes>
+            <class name="Tests.AutoCompleteTest"/>
+        </classes>
+    </test>
+</suite>
